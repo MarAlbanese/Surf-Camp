@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;     
+}
+
+/*-----------Home---------------------------*/
+
+/*----------Main-Nav--------------*/
+.container-header{
+        background: #f1bc89;
+        box-shadow:  10px 10px 20px #f1bc89;
+        width: 100%;
+}
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.img-logo{
+    width: 195px;
+    height: 78px;
+    margin-top: 10px;
+}
+
+.nav-links{
+    list-style: none;
+}
+.item{
+    display: inline-flex;
+    padding: 20px;
+    margin: 10px;
+    color: rgb(34, 17, 17);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-links{
+    display: inline-block;
+    margin-left: 129px;
+    
+}
+.item{
+    display: inline-block;
+}
+i{
+    margin:10px;
+}
+
+.div-iconos{
+    display: flex;
+    align-items: end;   
+}
+.div-iconos-1{
+    padding: 5px;
+    margin: 3px;
+}
+
+
+li.item:hover{
+    color:#b97206;
+    cursor:pointer;
+    transform: translateY(5px);
+    margin-bottom: 10px;
+    transition-duration: 1s;   
+    font-size: 17px;
+}
+
+.div-iconos-1:hover{
+    color:#c4500d;;
+    cursor:pointer;
+    transform: translateY(5px);
+    margin-bottom: 10px;
+    transition-duration: 1s;   
+    font-size: 20px;   
+    
+}
+
+/*---------------Despues del nav----------*/
+
+.caja{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+   
+}
+.imagen-mar{
+    margin-top: 5px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    box-shadow:  10px 10px 20px #f1bc89;
+    
+}
+
+.texto1{
+    position: absolute;
+    top: 113px;
+    left: 10%;
+    color: black;
+    font-size: 4.4em;
+    font-style: italic;
+    transition-duration: 8s;
+}
+
+/*----------------Productos-------------*/
+
+.div-tabla-1 { 
+    /*background: #7cdeeb;*/
+    /*border: 2px solid rgb(14, 13, 13);*/
+    width: 75%;
+    display: flex;
+    margin-top: 80px;
+    box-shadow: 10px 5px 4px #bb9d80;
+    margin-left: 44px;
+    position: relative;
+}
+.img-tabla-1{
+    margin: 10px;
+    padding: 5px;
+   /* border: 3px solid black;*/
+    width: 280px;
+    height: 293px;
+    object-fit: cover;
+    
+}
+.p-tabla-1{
+    margin-top:16px;
+    line-height: 160%; /*es la medida estandar para los parrafos*/
+    letter-spacing: 0.5px;
+    padding: 30px;
+    text-align: justify;
+    color:rgb(151, 101, 9);
+    font-family: cursive;
+}
+.div-button{
+    position: relative;
+    top: -86px;
+    left: 69%;
+    color: black;
+    font-size: 4.4em;
+    font-style: italic;
+}
+button{
+    background:#f1bc89;
+    border: #f1bc89;
+    border-radius: 15px;
+    width: 97px;
+    height: 31px;
+}
+button:hover{
+    background:#d6863b;
+    cursor: pointer;
+}
+/*-----------tabla 2---------------------*/
+.div-tabla-2 { 
+    /*background: #7cdeeb;*/
+    /*border: 2px solid rgb(14, 13, 13);*/
+    width: 75%;
+    display: flex;
+    margin-top: 29px;
+    box-shadow: 12px 5px 4px #bb9d80;
+    margin-top: 9px;
+    margin-left: 120px;
+    position: relative;
+}
+.img-tabla-2{
+    margin: 10px;
+    padding: 5px;
+    /*border: 3px solid black;*/
+    width: 265px;
+    height: 268px;
+    object-fit: cover;
+    margin-left: 200px;
+}
+.p-tabla-2{
+    margin-top:16px;
+    line-height: 160%; /*es la medida estandar para los parrafos*/
+    letter-spacing: 0.5px;
+    margin-left: 5px;
+    padding: 30px;
+    text-align: justify;
+    color:rgb(161, 44, 161);
+    font-family: cursive;
+}
+.div-button-2{
+    position: relative;
+    top: -86px;
+    left: 75%;
+    color: black;
+    font-size: 4.4em;
+    font-style: italic;
+}
+
+
+/*--------------tabla 3---------------*/
+.div-tabla-3 { 
+    /*background: #7cdeeb;*/
+    /*border: 2px solid rgb(14, 13, 13);*/
+    width: 90%;
+    display: flex;
+    margin-top: 29px;
+    box-shadow: 12px 5px 4px #bb9d80;
+    margin-bottom: 30px;
+    position: relative;
+}
+.img-tabla-3{
+    margin: 10px;
+    padding: 5px;
+    /*border: 3px solid black;*/
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+.p-tabla-3{
+    margin-top:16px;
+    line-height: 160%; /*es la medida estandar para los parrafos*/
+    letter-spacing: 0.5px;
+    padding: 30px;
+    text-align: justify;
+    color:rgb(50, 192, 192);
+    font-family: cursive;
+}
+.div-button-3{
+    position: relative;
+    top: -117px;
+    left: 81%;
+    color: black;
+    font-size: 4.4em;
+    font-style: italic;
+}
+/*-----------Tabla 4 ----------------*/
+.div-tabla-4 { 
+    /*background: #7cdeeb;*/
+    /*border: 2px solid rgb(14, 13, 13);*/
+    width: 71%;
+    display: flex;
+    margin-top: 29px;
+    box-shadow: 12px 5px 4px #bb9d80;
+    margin-bottom: 30px;
+    margin-left: 180px;
+}
+.img-tabla-4{
+    margin: 10px;
+    padding: 5px;
+    /*border: 3px solid black;*/
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+.p-tabla-4{
+    margin-top:16px;
+    line-height: 160%; /*es la medida estandar para los parrafos*/
+    letter-spacing: 0.5px;
+    padding: 29px;
+    text-align: justify;
+    color: hwb(305 32% 11%);
+    font-family: cursive;
+    
+}
+.div-button-4{
+    position: relative;
+    top: -117px;
+    left: 16%;
+    color: black;
+    font-size: 4.4em;
+    font-style: italic;
+}
+/*-----------Footer-------------*/
+footer{
+    background: #f1bc89;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-footer-1, .div-footer-2, .div-footer-3, .div-footer-4 {
+    background: #f1bc89;
+    padding: 10px;
+    text-align: justify;
+    color:rgb(12, 12, 12);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p:hover{
+    color: #fd8421;
+    cursor: pointer;
+}
+/*------------despues del footer--------------*/
+.div-ultimo{
+    display: flex;
+    justify-content: end;
+    background: rgb(247, 239, 239);
+    box-shadow:  10px 10px 20px #f1bc89;
+}
+.div-copi{
+    margin-right: 67%;
+}
+.p-copyright, .p-legal, .p-privacidad, .p-cookies{
+    padding: 8px;
+    margin: 10px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 700;
+    background: rgb(247, 239, 239);
+    font-size: small;
+}
+/*------------CAMPAMENTO---------------*/
+
+.img-campamento{
+    width: 100%;
+    margin-top: 10px;  
+    box-shadow: 10px 5px 4px lightskyblue;
+}
+.div-meses-meses{
+    background-color: #faf2e4;
+    padding: 4px;
+}
+.div-meses{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.div-junio, .div-julio, .div-agosto, .div-septiembre{
+    padding: 20px;
+    margin: 2px;
+    border: 2px solid rgb(245, 216, 87);
+    font-size: 1.1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #f8e48b;
+    border-radius: 8px;
+}
+
+/*--------------Reservas------------*/
+.div-reserva{
+    /*border: 1px solid black;*/
+    display: inline-block;
+    width: 96%;
+    margin-top: 30px;
+}
+
+.div-reserva1, .div-reserva2, .div-reserva3{
+    /*border: 1px solid black;*/
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.h4-reserva{
+    font-size: 1.2em;
+    font-family: cursive;
+    text-shadow:  1px 1px #f8e48b;
+}
+.p-mes{
+    font-size: 1.2em;
+    font-family: cursive;   
+}
+
+.p-reserva{
+    font-size: 1.5em;
+    font-family: cursive;
+}
+/*------------IMAGENES DESPUES DE RESERVAS------------*/
+.div-camp{
+    /*border: 1px solid black;*/
+    display: flex;
+    position: relative;
+}
+/*.div-camp-img{
+    /*border: 1px solid black;
+   
+}*/
+.img-camp1{
+    /*border: 1px solid black;*/
+    height: 80%;
+    margin-left: 18px;
+    box-shadow: 10px 5px 4px lightskyblue;
+          
+}
+.div-camp-parrafo{
+    /*border: 1px solid black;*/
+    margin-right: 24px;
+    margin-left: -88px;
+}
+.h2-camp{
+    margin-left: 153px;
+    margin-top: 30px;
+    font-family: cursive;
+    font-size: 1.7em;
+    color:#f8e48b;
+}
+.div-camp-horarios{
+    margin-top: 70px;
+    margin-left: 20px;
+    
+}
+.li-horarios{
+    list-style: none;
+    font-size: 1.1em;
+    font-family: cursive;
+    font-weight: bold;
+}
+.div-camp-input{
+    display: flex;
+    margin-top: 10px;
+}
+label{
+    margin-left: 17px;
+}
+input{
+    margin-left: 8px;
+}
+.div-position-camp-3{
+    /*position: relative;*/
+    display: flex;
+    top: -90px;
+    left: 6%;
+
+}
+.div-position-camp3{
+    width: 50%;
+    height: 50%;
+}
+.p-camp-3{
+    margin-left: 43px;
+    text-align: justify;
+    margin-right: 47px;
+    font-size: 1.2em;
+    font-family: cursive;
+    color: violet;
+    margin-top: 46px;
+}
+.img-campamento3{
+    position: relative;
+    box-shadow: 10px 5px 4px lightskyblue;
+    left: 70px;
+    top: -121px;
+ 
+}
+.div-position-camp-4{
+    display: flex;
+    /*border: 1px solid black;*/
+}
+.div-todos-iconos{
+    margin-left: 56px;
+    position: relative;
+    left: 145px;
+    top: 2px;
+
+}
+
+/*.div-position-transporte{
+    /*border: 1px solid black;
+}*/
+
+.letras-de-iconos{ 
+    color:#fd8421;
+    font-size: 1.2em;
+    font-family: cursive;
+}
+/*.div-position-ubicacion{
+    /*border: 1px solid black;
+}
+.div-position-horarios{
+    /*border: 1px solid black;
+}
+.div-position-clases-surf{
+    /*border: 1px solid black;
+}*/
+.img-campamento4{
+    object-fit: contain;
+    position: relative;
+    left: 223px;
+    top: -37px;
+    /*border: 1px solid black;*/
+    height: min-content;
+    box-shadow: 10px 5px 4px lightskyblue;
+    
+}
+.div-personaliza-tu-camp{
+    /*border: 1px solid black;*/
+    width: 22%;
+    padding: 6px;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    left: 65%;
+    top: -331px;
+}
+.p-personaliza-tu-camp{
+    color:#c4500d;
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+}
+/*-------------Slider------------*/
